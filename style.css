@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    height: auto;
+    background-color: white;
+    position: fixed;
+    z-index: 568;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navul li img{
+    height: 60px;
+}
+.navul li a{
+    text-decoration: none;
+    color: black;
+}
+.navul li a:hover{
+    color: orangered;
+}
+.navul li{
+    list-style: none;
+}
+.link:after{
+    content: "\25bc";
+    color: black;
+    font-size: 10px;
+}
+.slider img{
+    width: auto;
+    cursor: pointer;
+    height: 480px;
+    filter: blur(1px);
+}
+/* news */
+.news{
+    text-align: center;
+}
+.newspara{
+    margin-top: 40px;
+    align-content: center;
+    text-align: left;
+    width: 1000px;
+    height: 400px;
+    font-size: 20px;
+    font-weight: 600;
+    overflow: scroll;
+    cursor: pointer;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newspara p span{
+    color: red;
+}
+/* vision */
+.vision{
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+}
+.visiondiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.visiondiv div{
+    width: 500px;
+    height:200px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 1px 5px;
+    justify-content: center;
+    margin: 20px;
+}
+.visiondiv div p{
+    padding-left: 15px;
+}
+.visiondiv div h3{
+    text-align: center;
+    color: rgb(229, 95, 6);
+    padding-top: 10px;
+    font-weight: 400;
+}
+/* youtube */
+.youtube{
+    justify-content: center;
+    text-align: center;
+}
+.youtube .iframe iframe{
+    width: 100%;
+    max-width: 750px;
+    height: 420px;
+}
+.youtube h2{
+    font-weight: 400;
+}
+/* core-values */
+.core-values div{
+    justify-content: center;
+    align-content: center;
+}
+.core-values {
+    margin-top: 25px;
+}
+.head{
+    text-align: center;
+}
+.content div{
+    margin: 20px;
+    height: auto;
+    width: 200px;
+}
+
+.content div h6{
+    text-align: center;
+    background-color: #5D3FD3;
+    height: 30px;
+    color: white;
+    font-weight: 400;
+}
+.content div p{
+    font-size: 15px;
+    color: blue;
+    font-weight: 600;
+}
+.content div ul{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(98, 96, 96);
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* college */
+.college{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.collegeh4{
+    text-align: center;
+}
+.college div{
+    margin: 10px;
+} 
+.collegetext{
+    align-content: center;
+    width: 65%;
+    color: rgb(93, 93, 93);
+}
+.collegelogo img{
+    width: 100px;
+    margin: 15px;
+}
+
+/* Recruiters */
+.Recruiters{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.Recruiters div img{
+    width: 100%;
+    max-width: 780px;
+    height: 520px;
+}
+/* Alumni */
+.Alumni{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.Alumni div img{
+    width: 100%;
+    max-width: 780px;
+    height: 520px;
+}
+.Alumni div a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(194, 78, 36);
+}
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: #06557C;
+    color: white;
+    padding: 20px;
+}
+footer div h3{
+    font-size: larger;
+}
+.address{
+    width: 200px;
+}
+.address div span{
+    font-size: small;
+    font-weight: 400;
+}
+.social i{
+    font-size: 20px;
+    padding: 7px;
+}
+.right{
+    background-color: #023650;
+    color: white;
+}
+/* hover */
+.hover{
+    z-index: 999;
+    height: 350px;
+    width: 200px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.hover ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+
+}
+.hul li a{ 
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.hul li a:hover{ 
+    color: orangered;
+}
+.link1:hover .hover{
+    display: flex;
+}
+/* .Governance */
+.Governance{
+    z-index: 999;
+    height: 420px;
+    width: 270px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.Governance ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.gul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.gul li a:hover{ 
+    color: orangered;
+}
+.link2:hover .Governance{
+    display: flex;
+}
+/* add */
+.addmission{
+    z-index: 999;
+    height: 260px;
+    width: 250px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.addmission ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.aul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.aul li a:hover{ 
+    color: orangered;
+}
+.link3:hover .addmission{
+    display: flex;
+}
+/* acadamy */
+.acadamy{
+    z-index: 999;
+    height: 300px;
+    width: 250px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.acadamy ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.acul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.acul li a:hover{ 
+    color: orangered;
+}
+.link4:hover .acadamy{
+    display: flex;
+}
+/* campus */
+.campus{
+    z-index: 999;
+    height: 300px;
+    width: 270px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.campus ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.campul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.campul li a:hover{ 
+    color: orangered;
+}
+.link5:hover .campus{
+    display: flex;
+}
+/* facilities */
+.facilities{
+    z-index: 999;
+    height: 410px;
+    width: auto;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.facilities ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.faul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.faul li a:hover{ 
+    color: orangered;
+}
+.link6:hover .facilities{
+    display: flex;
+}
+/* erp */
+.erp{
+    z-index: 999;
+    height: 150px;
+    width: 150px;
+    right: 30px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    background-color: white;
+    text-align: left;
+    display: none;
+    position: absolute;
+    line-height: 10px;
+}
+.erp ul{
+    flex-direction: column;
+    padding-top: 20px;
+    list-style: none;
+}
+.erpul li a{ 
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.erpul li a:hover{ 
+    color: orangered;
+}
+.link7:hover .erp{
+    display: flex;
+}
+/* navright */
+.navright{
+    margin-top: 20px;
+    display: none;
+}
+.navrightul li{
+    list-style: none;
+    line-height: 30px;
+}
+.navrightul li a{
+    text-decoration: none;
+    color: black;
+}
+.yo{
+    display: none;
+    align-items: center;
+} 
+.yo li{
+    list-style: none;
+}
+/* line */
+h2::before,
+h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid orangered;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-.5rem);
+}
+@media (max-width:1000px) 
+{
+ .navul{
+    display: none;
+ }
+.yo{ 
+    display: flex;
+    justify-content: space-between;
+}
+.yo li img{
+    width: 100%;
+    max-width: 250px;
+}
+}
+@media (max-width:400px) {
+    .visiondiv div{
+        width: fit-content;
+        height:fit-content;
+    }
+}
+<div class="animate-in fade-in zoom-in">...</div>
